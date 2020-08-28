@@ -1,23 +1,24 @@
 <?php
 if (isset($_POST['submit'])) {
-	$file = $_FILES['file'];
-	$fileName = $_FILES['file']['name'];
-	$fileTmpName = $_FILES['file']['tmp_name'];
-	$fileSize = $_FILES['file']['size'];
-	$fileError = $_FILES['file']['error'];
-	$fileType = $_FILES['file']['type'];
+//	uplGC stands for upload good conduct
+	$uplGC = $_FILES['file'];
+	$uplGCName = $_FILES['file']['name'];
+	$uplGCTmpName = $_FILES['file']['tmp_name'];
+	$uplGCSize = $_FILES['file']['size'];
+	$uplGCError = $_FILES['file']['error'];
+	$uplGCType = $_FILES['file']['type'];
 
-	$fileExt = explode('.', $fileName);
-	$fileActualExt = strtolower(end($fileExt));
+	$uplGCExt = explode('.', $uplGCName);
+	$uplGCActualExt = strtolower(end($uplGCExt));
 	
 	$allowed = array('docx', 'doc','pdf' , 'jpeg', 'png', 'jpg');
 
-	if (in_array($fileActualExt, $allowed)) {
-		if($fileError === 0){
-			if($fileSize < 1500000){
-				$fileNameNew = uniqid('',true).".".$fileActualExt;
-				$fileDestination = 'uploads/'.$fileNameNew;
-				move_uploaded_file(	$fileTmpName, $fileDestination);
+	if (in_array($uplGCActualExt, $allowed)) {
+		if($uplGCError === 0){
+			if($uplGCSize < 1500000){
+				$uplGCNameNew = uniqid('',true).".".$uplGCActualExt;
+				$uplGCDestination = 'uploads/'.$uplGCNameNew;
+				move_uploaded_file(	$uplGCTmpName, $uplGCDestination);
 				header('location: htpp://midas/app');				
 			}else{
 				echo "your file is to big!";
@@ -29,7 +30,7 @@ if (isset($_POST['submit'])) {
 		echo "you cannot upload files of this type";
 	}
 } 
-  $a = $fileNameNew;
+  $a = $uplGCNameNew;
   
   $servername = "localhost";
   $username = "root";
