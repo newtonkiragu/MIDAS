@@ -15,7 +15,7 @@
 
   $servername = "localhost";
   $username = "root";
-  $password = "";
+  $password = "root";
   $dbname = "iliad" ;
 //create connection
   $conn = new mysqli("$servername", "$username", "$password", "$dbname");
