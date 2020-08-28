@@ -1,23 +1,24 @@
 <?php
 if (isset($_POST['submit'])) {
-	$file = $_FILES['file'];
-	$fileName = $_FILES['file']['name'];
-	$fileTmpName = $_FILES['file']['tmp_name'];
-	$fileSize = $_FILES['file']['size'];
-	$fileError = $_FILES['file']['error'];
-	$fileType = $_FILES['file']['type'];
+//	uplLFI stands for upload letter from institute
+	$uplLFI = $_FILES['file'];
+	$uplLFIName = $_FILES['file']['name'];
+	$uplLFITmpName = $_FILES['file']['tmp_name'];
+	$uplLFISize = $_FILES['file']['size'];
+	$uplLFIError = $_FILES['file']['error'];
+	$uplLFIType = $_FILES['file']['type'];
 
-	$fileExt = explode('.', $fileName);
-	$fileActualExt = strtolower(end($fileExt));
+	$uplLFIExt = explode('.', $uplLFIName);
+	$uplLFIActualExt = strtolower(end($uplLFIExt));
 
 	$allowed = array('doc', 'docx' , 'pdf', 'jpeg', 'png', 'jpg');
 
-	if (in_array($fileActualExt, $allowed)) {
-		if($fileError === 0){
-			if($fileSize < 1500000){
-				$fileNameNew = uniqid('',true).".".$fileActualExt;
-				$fileDestination = 'upload2/'.$fileNameNew;
-				move_uploaded_file(	$fileTmpName, $fileDestination);
+	if (in_array($uplLFIActualExt, $allowed)) {
+		if($uplLFIError === 0){
+			if($uplLFISize < 1500000){
+				$uplLFINameNew = uniqid('',true).".".$uplLFIActualExt;
+				$uplLFIDestination = 'upload2/'.$uplLFINameNew;
+				move_uploaded_file(	$uplLFITmpName, $uplLFIDestination);
 				header('location: htpp://midas/app');
 			}else{
 				echo "your file is to big!";
@@ -30,7 +31,7 @@ if (isset($_POST['submit'])) {
 	}
 } 
 
-  $a = $fileNameNew;
+  $a = $uplLFINameNew;
   
   $servername = "localhost";
   $username = "root";
