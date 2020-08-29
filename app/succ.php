@@ -21,7 +21,7 @@
   <fieldset>
     <h2 class="fs-title">Create your account</h2>
     <h3 class="fs-subtitle">This is step 1</h3>
-    <form action="upload.php" method="POST" enctype="multipart/form-data">
+<!--    <form action="upload.php" method="POST" enctype="multipart/form-data">-->
       <div>
         <input type="file" name="file">
         <button type="submit" name="submit">UPLOAD DOCUMENTS</button>
@@ -32,7 +32,7 @@
   <fieldset>
     <h2 class="fs-title">Social Profiles</h2>
     <h3 class="fs-subtitle">Your presence on the social network</h3>
-    <form action="uploads.php" method="POST" enctype="multipart/form-data">
+<!--    <form action="uploads.php" method="POST" enctype="multipart/form-data">-->
     <div>
       <input type="file" name="file">
       <button type="submit" name="submit">UPLOAD CV</button>
