@@ -1,17 +1,17 @@
 <?php
 
-  $a=$_POST['username'];
-  $b=$_POST['email'];
-  $c=$_POST['phone'];
-  $d=$_POST['Gender'];
-  $e=$_POST['Ethnicity'];
-  $f=$_POST['Institution'];
-  $g=$_POST['Course'];
+  $username=$_POST['username'];
+  $email=$_POST['email'];
+  $phone=$_POST['phone'];
+  $gender=$_POST['gender'];
+  $ethnicity=$_POST['ethnicity'];
+  $institution=$_POST['institution'];
+  $course=$_POST['course'];
   
-  $e=strtolower($d);
-  $f=strtolower($e);
-  $g=strtolower($f);
-  $h=strtolower($g);
+  $ethnicity=strtolower($ethnicity);
+  $institution=strtolower($institution);
+  $course=strtolower($course);
+  $gender=strtolower($gender);
 
   $servername = "localhost";
   $username = "root";
@@ -25,7 +25,7 @@
   }
   echo "connected successfully";
 
-  $sql = "INSERT INTO appform (username, email, phone, Gender, Ethnicity, Institution, Course) VALUES ('$a', '$b', '$c','$d','$e', '$f', '$g')";
+  $sql = "INSERT INTO appform (username, email, phone, Gender, Ethnicity, Institution, Course) VALUES ('$username', '$email', '$phone','$gender','$ethnicity', '$institution', '$course')";
   if ($conn->query($sql) === TRUE) {
     echo "Thanks for your input will look into it and get back to you if necessary as soon as possible.";
     header("location: index.php");

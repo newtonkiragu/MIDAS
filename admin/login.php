@@ -44,9 +44,9 @@
 }
   </style>
   <div class="topnav">
-  <a class="active" href="http://localhost/midas">Home</a>
-  <a href="http://localhost/midas/admin">Login</a>
-  <a href="http://localhost/midas/app">Apply for attatchment</a>
+  <a class="active" href="../">Home</a>
+  <a href="#">Login</a>
+  <a href="../app/">Apply for attatchment</a>
   
 </div>
 

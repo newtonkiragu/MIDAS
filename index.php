@@ -22,11 +22,11 @@
       </li>
 
       <li>
-          <a href="admin">Admin Login</a>
+          <a href="admin/">Admin Login</a>
       </li>
 
       <li>
-          <a href="app">Apply for attatchment</a>
+          <a href="app/">Apply for attatchment</a>
       </li>
 
       </ul>

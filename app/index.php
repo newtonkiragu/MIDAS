@@ -46,9 +46,9 @@
   </style>
 <header>
 <div class="topnav">
-  <a class="active" href="http://localhost/midas">Home</a>
-  <a href="http://localhost/midas/admin/login.php">Login</a>
-  <a href="http://localhost/midas/admin">admin</a>
+  <a class="active" href="../">Home</a>
+  <a href="../admin/login.php">Login</a>
+  <a href="../admin/">admin</a>
 </div>
 </header>
 <br/>
