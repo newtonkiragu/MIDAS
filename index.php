@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>MTTS</title>
-<link rel="icon" type="img/" href ="5smMvRlz_400x400.jpg">
-<link rel="stylesheet" href="normalize.min.css">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="indexstyle.css">
+<link rel="icon" type="img/" href ="static/img/5smMvRlz_400x400.jpg">
+<link rel="stylesheet" href="static/css/normalize.min.css">
+<link rel="stylesheet" href="static/css/w3.css">
+<link rel="stylesheet" href="static/css/indexstyle.css">
 </head>
 <body> 
 <section class="navigation">
@@ -38,10 +38,10 @@
 <div id="SLIDE_BG"></div>
 <!--h1>WELCOME</h1-->
 <div class="w3-content w3-display-container">
-  <img class="mySlides" src="gettyimages-697051078-2048x2048.jpg" style="width:100%">
-  <img class="mySlides" src="gettyimages-1005938136-2048x2048.jpg" style="width:100%">
-  <img class="mySlides" src="gettyimages-1005941606-2048x2048.jpg" style="width:100%">
-  <img class="mySlides" src="gettyimages-1042519992-2048x2048.jpg" style="width:100%">
+  <img class="mySlides" src="static/img/gettyimages-697051078-2048x2048.jpg" style="width:100%">
+  <img class="mySlides" src="static/img/gettyimages-1005938136-2048x2048.jpg" style="width:100%">
+  <img class="mySlides" src="static/img/gettyimages-1005941606-2048x2048.jpg" style="width:100%">
+  <img class="mySlides" src="static/img/gettyimages-1042519992-2048x2048.jpg" style="width:100%">
 </div>
   
 
@@ -61,7 +61,7 @@ function carousel() {
   setTimeout(carousel, 5000); }
 
 </script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="static/js/script.js"></script>
 
 </body>
 </html>

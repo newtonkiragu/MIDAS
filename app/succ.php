@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>CodePen - Multi Step Form with Progress Bar using jQuery and CSS3</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="../static/css/app/style.css">
 
 </head>
 <body>
@@ -53,7 +53,7 @@
 </form>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="../static/js/app/script.js"></script>
 
 </body>
 </html>

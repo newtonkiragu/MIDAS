@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title> MTTS Registration</title>
-  <link rel="icon" type="img/" href ="5smMvRlz_400x400.jpg">
-  <link rel="stylesheet" href="reset.min.css">
-  <link rel="stylesheet" href="style1.css">
+  <link rel="icon" type="img/" href ="../static/img/app/5smMvRlz_400x400.jpg">
+  <link rel="stylesheet" href="../static/css/app/reset.min.css">
+  <link rel="stylesheet" href="../static/css/app/style1.css">
 
 </head>
 <body>
@@ -142,7 +142,8 @@
 <form action="upload3.php" method="POST" enctype="multipart/form-data" id="Form5"></form>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script  src="../static/js/app/script.js"></script>
 
 </body>
 </html>
