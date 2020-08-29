@@ -7,10 +7,10 @@ include('auth.php');
 <head>
   <meta charset="UTF-8">
   <title>Admin</title>
-  <link rel="icon" type="img/" href ="5smMvRlz_400x400.jpg">
-  <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="./min.css">
-  <link rel='stylesheet' href='./fa.min.css'>
+  <link rel="icon" type="img/" href ="../static/img/admin/5smMvRlz_400x400.jpg">
+  <link rel="stylesheet" href="../static/css/admin/index.css">
+  <link rel="stylesheet" href="../static/css/admin/min.css">
+  <link rel='stylesheet' href='../static/css/admin/fa.min.css'>
   
 </head>
 <body>
@@ -124,7 +124,7 @@ else
   </main>
 </div>
 <!-- partial -->
-  <script  src="script.js"></script>
+  <script  src="../static/js/admin/script.js"></script>
 
   <!damn>
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
@@ -132,6 +132,6 @@ else
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.0.0/ui-bootstrap-tpls.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-utils/0.1.1/angular-ui-utils.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js'></script>
-<script src='https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js'></script><script  src="./script1.js"></script>
+<script src='https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js'></script><script  src="../static/js/admin/script1.js"></script>
   </body>
 </html>

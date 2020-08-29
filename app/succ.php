@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>CodePen - Multi Step Form with Progress Bar using jQuery and CSS3</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="../static/css/app/style.css">
 
 </head>
 <body>
@@ -21,7 +21,7 @@
   <fieldset>
     <h2 class="fs-title">Create your account</h2>
     <h3 class="fs-subtitle">This is step 1</h3>
-    <form action="upload.php" method="POST" enctype="multipart/form-data">
+<!--    <form action="upload.php" method="POST" enctype="multipart/form-data">-->
       <div>
         <input type="file" name="file">
         <button type="submit" name="submit">UPLOAD DOCUMENTS</button>
@@ -32,7 +32,7 @@
   <fieldset>
     <h2 class="fs-title">Social Profiles</h2>
     <h3 class="fs-subtitle">Your presence on the social network</h3>
-    <form action="uploads.php" method="POST" enctype="multipart/form-data">
+<!--    <form action="uploads.php" method="POST" enctype="multipart/form-data">-->
     <div>
       <input type="file" name="file">
       <button type="submit" name="submit">UPLOAD CV</button>
@@ -53,7 +53,7 @@
 </form>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="../static/js/app/script.js"></script>
 
 </body>
 </html>

@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>MTTS Login</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="img/" href ="5smMvRlz_400x400.jpg">
+  <link rel="stylesheet" href="../static/css/admin/style.css">
+  <link rel="icon" type="img/" href ="../static/img/admin/5smMvRlz_400x400.jpg">
   </head>
 <header>
   <style type="text/css">
@@ -44,9 +44,9 @@
 }
   </style>
   <div class="topnav">
-  <a class="active" href="http://localhost/midas">Home</a>
-  <a href="http://localhost/midas/admin">Login</a>
-  <a href="http://localhost/midas/app">Apply for attatchment</a>
+  <a class="active" href="../">Home</a>
+  <a href="#">Login</a>
+  <a href="../app/">Apply for attatchment</a>
   
 </div>
 
